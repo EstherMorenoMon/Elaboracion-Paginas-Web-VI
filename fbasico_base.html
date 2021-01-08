@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario Básico para Validaciones</title>
+    <link rel="stylesheet" href="fbasico.css" />
+  
+  </head>
+  <body>
+
+    <script>
+        function miFuncion() {
+          alert("Probando llamadas a JavaScript: Vamos a validar");
+        }
+    </script> 
+    <script type="text/javascript" src="fbasico.js"></script>
+    <header>
+      <h1>Ejemplo de Formulario para validaciones</h1>
+    </header>
+    <main>
+      <section>
+        <!-- Form -->
+        <form action="#" method="GET">
+          <!-- Confeccionar un control que nos solicite la carga obligatoria de un número binario de ocho dígitos.-->
+          <p>
+            <label for="numerob">Ingrese un byte u octeto de bits:</label>
+            <!--Primera validación por tipo-->
+            <!--Segunda validación por obligatorio-->
+            <!--Tercera validación por longitud máxima o mínima-->
+            <!--Cuarta validación por patrones con expresiones regulares-->
+            <!--Con title indicamos ayuda-->
+
+          </p>
+          <p>
+            <!--Confeccionar un control que nos solicite la carga de un número entero decimal que contenga 5 dígitos.-->
+            <label for="numero">
+              Ingrese un número entero que contenga 7 dígitos:
+            </label>
+
+          </p>
+          <p>
+            <!--Confeccionar un control que nos solicite la carga de un número entero decimal que contenga entre 1 y 5 dígitos.-->
+            <label for="numerod">
+              Ingrese un número entero decimal que contenga entre 1 y 5 dígitos:
+            </label>
+            
+          </p>
+          <p>
+          <!--Confeccionar un control que nos solicite la carga de una patente de un auto. 
+            Toda patente cuenta con tres caracteres seguido de tres números -->
+          <label for="patente">Introduzca patente:</label>
+          
+          </p>
+          <p> <label for="fruta">¿Prefieres un plátano o una cereza?</label>
+           
+        </p>
+        <p>
+          <!--Formato: 32 letras y números-->
+           <label for="hash">Introduce código Md5 Hash</label>
+  
+        </p>
+          <p>
+            <button type="submit" onClick="javascript:miFuncion();">Enviar</button>
+          </p>
+        </form>
+        <!--<form action="mailto:esther.moreno@iesluisbraille.es" method="POST"> -->
+        <form action="#" method="POST">
+          <fieldset>
+            <legend>Formulario de registro</legend>
+            <p>
+                <!--Nombre: Admitiremos nombres de cualquier nacionalidad, incluyendo nombres compuestos y la mayoría de normas de acentuación. El número de caracteres será como mínimo 3 y como máximo 32. -->
+              <label for="nombre">Nombre</label>
+              
+            </p>
+            <p>
+                <!--Aceptaremos cualquier carácter independientemente de la nacionalidad, 
+                  con una tamaño entre 2 y 64 caracteres.-->
+              <label for="apellidos">Apellidos</label>
+              
+            </p>
+            <p>
+                <!--HTML5 ya provee de un tipo de campo email, aunque su validación es bastante pobre. 
+                  Podríamos complementarla con una expresión más compleja:-->
+              <label for="correo">Email</label>
+              
+            </p>
+            <p>
+                <!--Vamos a solicitar para el usuario de acceso al servicio una cadena de letras minúsculas,
+                 con un número opcionalmente de hasta dos dígitos al final. La cadena completa tendrá entre 5
+                  y 12 caracteres.-->
+              <label for="usuario">Usuario</label>
+              
+            </p>
+            <p>
+                <!--Por último vamos a solicitar una cadena como contraseña, la cual podrá contener letras 
+                  mayúsculas, minúsculas, números y los caracteres !?-. Su tamaño: entre 8 y 12 caracteres.-->
+              <label for="pass">Contraseña</label>
+              
+            </p>
+            <p>
+              <button type="submit" onclick="validarFormulario();">Enviar</button>
+            </p>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+input:valid {
+ background-color: green;
+ border: 2px solid black;
+}
+input:invalid {
+  color: red;
+}
+
+input:invalid:required {
+    background-image: linear-gradient(to right, pink, lightgreen);
+  }
+  
