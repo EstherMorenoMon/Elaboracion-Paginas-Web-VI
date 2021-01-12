@@ -1,0 +1,101 @@
+/* Aplicar a los elemenos pares (odd) (comenzando desde el 0) */
+li:nth-child(odd) {
+    background-color: darkblue;
+    color: grey;
+}
+
+/* Aplicar a los elemenos impares(even) (comenzando desde el 0) */
+li:nth-child(even) {
+    background-color: grey;
+    color:darkblue;
+}
+
+td{
+    border: 1px solid black;
+}
+/* Aplicar a los elemenos pares (odd) (comenzando desde el 0) o tr:nth-child(2n) */
+tr:nth-child(odd) {
+    background-color: darkblue;
+    color: grey;
+}
+/* Aplicar a los elemenos impares(even) (comenzando desde el 0) o tr:nth-child(2n+1) */
+tr:nth-child(even) {
+    background-color: grey;
+    color:darkblue;
+}
+
+
+/*Primer elemento */ 
+/*
+li:first-child{
+    font-size: 2em;
+}
+*/
+/*Último elemento */
+/*
+li:last-child{
+    font-weight: bold;
+}
+*/
+/* Aplicar al segundo elemento */
+/*
+li:nth-child(2) {
+    background-color: red;
+    color: green;
+}
+*/
+
+/* Aplicar al quinto elemento  */
+/*
+li:nth-child(5) {
+    background-color: indianred;
+    color: indigo;
+}
+*/
+
+/* Aplicar al penúltimo elemento */
+/*
+li:nth-last-child(2) {
+    background-color: red;
+    color: green;
+}
+*/
+
+/* Aplicar al quinto elemento comenzando por el final */
+/*
+li:nth-last-child(5) {
+    background-color: indianred;
+    color: indigo;
+}
+*/
+/* Aplicar a cada 5 */
+/*
+li:nth-child(5n) {
+    background-color:pink;
+    color:purple;
+}
+*/
+
+/* Aplicar a cada 3 comenzando por el séptimo */
+/*
+li:nth-child(3n+7) {
+    background-color:yellow;
+    color:brown;
+}
+*/
+
+/*Los 4 primeros elementos */
+/*
+li:nth-child(-n+4) {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+*/
+/*Todos a partir del 5º elemento  */
+/*
+li:nth-child(n+10) {
+    font-family: fantasy;
+}
+*/
+
+
+
