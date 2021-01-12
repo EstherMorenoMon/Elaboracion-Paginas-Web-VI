@@ -13,6 +13,11 @@ li:nth-child(even) {
 td{
     border: 1px solid black;
 }
+/*Aplicar al pasar por encima el ratón */
+td:hover {
+    background-color: coral;
+    font-size: 2em;
+}
 /* Aplicar a los elemenos pares (odd) (comenzando desde el 0) o tr:nth-child(2n) */
 tr:nth-child(odd) {
     background-color: darkblue;
