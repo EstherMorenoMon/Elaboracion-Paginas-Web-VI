@@ -1,10 +1,10 @@
-/* Aplicar a los elemenos pares (odd) (comenzando desde el 0) */
+/* Aplicar a los elemenos impares (odd)  */
 li:nth-child(odd) {
     background-color: darkblue;
     color: grey;
 }
 
-/* Aplicar a los elemenos impares(even) (comenzando desde el 0) */
+/* Aplicar a los elemenos pares(even)  */
 li:nth-child(even) {
     background-color: grey;
     color:darkblue;
@@ -18,12 +18,12 @@ td:hover {
     background-color: coral;
     font-size: 2em;
 }
-/* Aplicar a los elemenos pares (odd) (comenzando desde el 0) o tr:nth-child(2n) */
+/* Aplicar a los elemenos impares (odd)  o tr:nth-child(2n) */
 tr:nth-child(odd) {
     background-color: darkblue;
     color: grey;
 }
-/* Aplicar a los elemenos impares(even) (comenzando desde el 0) o tr:nth-child(2n+1) */
+/* Aplicar a los elemenos pares(even) (comenzando desde el 0) o tr:nth-child(2n+1) */
 tr:nth-child(even) {
     background-color: grey;
     color:darkblue;
@@ -58,6 +58,7 @@ li:nth-child(5) {
 }
 */
 
+
 /* Aplicar al penúltimo elemento */
 /*
 li:nth-last-child(2) {
@@ -81,26 +82,29 @@ li:nth-child(5n) {
 }
 */
 
+
 /* Aplicar a cada 3 comenzando por el séptimo */
 /*
 li:nth-child(3n+7) {
     background-color:yellow;
     color:brown;
 }
-*/
 
+*/
 /*Los 4 primeros elementos */
 /*
 li:nth-child(-n+4) {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 */
+
 /*Todos a partir del 5º elemento  */
 /*
 li:nth-child(n+10) {
     font-family: fantasy;
 }
 */
+
 
 
 
