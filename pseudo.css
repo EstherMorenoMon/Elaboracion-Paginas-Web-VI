@@ -8,7 +8,7 @@ a:hover {
 }
 
 a:visited {
-  color: blue;
+  color: yellow;
   text-decoration: underline;
 }
 
@@ -30,12 +30,12 @@ ul:last-of-type li:nth-child(2) {
 }
 
 p::first-letter {
-  font-size: 2em;
+  font-size: 3em;
   color: red;
 }
 
 p::first-line {
-  font-size: 1.2em;
+  font-size: 2em;
   color: rgb(111, 111, 207);
 }
 
@@ -43,3 +43,10 @@ p::after {
   content: "FIN";
   border: 1px solid green;
 }
+
+/*
+p::selection {
+  color: red;
+  background-color: yellow;
+}
+*/
